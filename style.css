@@ -42,10 +42,6 @@ body {
     }
 }
 
-.conteiner__menu {
-    margin-top: 15px;
-}
-
 .style-li {
     list-style-type: none;
 }
@@ -85,15 +81,104 @@ body {
 
 /*     TITULO     */
 
-/*.conteiner__title {
+.conteiner__title {
     width: 100%;
     height: auto;
     padding: 50px 0px;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
     url(./img/rosa.jpg);
     color: white;
-}*/
+    background-position: center center;
+}
 
-/*   CONTENT INDEX */
+/*   CONTENT INDEX   */
 
-   
+.conteiner__content {
+    background-color:#B0F6D4;
+    width: 100%;
+    height: auto;
+}
+
+.productos-box {
+    color: #493356;
+    background-color:#B0F6D4;
+    background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+}
+
+.img-productos {
+    width:23rem;
+    height:15rem;
+}
+
+.btn-productos {
+    background-color: #0879c6;
+}
+
+.btn-productos:hover {
+    background-color: #0c578a;
+    animation-name: btn;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes btn {
+    0% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1.1);
+    }     
+}
+
+/*    PUBLICIDAD    */
+
+.conteiner__redes {    
+    background-color:#ff90af;
+    width: 100%;
+    height: auto;
+}
+
+.conteiner__redes--box:first-child {
+    background-color: lightgoldenrodyellow;
+}
+
+
+.img-publicidad {
+    height: 28rem;
+    width: 20rem;
+}
+
+.ico {
+    font-size: 80px;
+    padding: 25px;
+    color:#033353;
+} 
+
+.ico:hover {
+    animation-name: mover;
+    animation-duration: 1.2s;
+}
+
+@keyframes mover {
+    0% {
+        transform:rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(20deg) scale(1.2);
+    }
+
+    100% {
+        transform:rotate(-20deg);
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width:991px) {
+
+}
+
+@media screen and (min-width: 992px){
+
+}
+
+/*    Continuar con el title header terminado*/
