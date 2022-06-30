@@ -139,14 +139,10 @@ body {
 }
 
 .conteiner__redes--box:first-child {
-    background-color: lightgoldenrodyellow;
+
+    background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
 }
 
-
-.img-publicidad {
-    height: 28rem;
-    width: 20rem;
-}
 
 .ico {
     font-size: 80px;
@@ -173,12 +169,35 @@ body {
     }
 }
 
-@media screen and (min-width: 577px) and (max-width:991px) {
+/*        FOOTER       */
+
+.conteiner__footer {    
+    background-color:#493356;
+    width: 100%;
+    height: auto;
+}
+
+/*   PAGINA NOSOTROS    */
+
+/*   SECTION TITLE*/
+
+.bg-title {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+    url(../img/margarita.jpg);
+}
+
+/*   SECTION CONTENT   */
+
+.conteiner__content-nosotros {
+    background-image: linear-gradient(to right top, #45618e, #0085b4, #00aac8, #00cec4, #48eead);
+}
+
+/*@media screen and (min-width: 577px) and (max-width:991px) {
 
 }
 
 @media screen and (min-width: 992px){
 
-}
+}*/
 
 /*    Continuar con el title header terminado*/

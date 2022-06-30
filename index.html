@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./boorstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./boorstrap/js/jquery.slim.min.js">
-    <link rel="stylesheet" href="./boorstrap/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./iconos/css/all.min.css">
     <link rel="shortcut icon" href="./img/icono.png" type="image/x-icon">
@@ -36,6 +34,7 @@
         </div>
     </Header>
 
+
     <!-- COMIENZA SECTION TITLE -->
     <section class="conteiner__title">
         <div class="conteiner__title--eureka d-flex justify-content-center  flex-column align-items-center">
@@ -47,7 +46,7 @@
     <!-- COMIENZA SECTION CONTENT-->
     <section class="conteiner__content d-flex flex-column align-items-center">
 
-        <div class="productos-box container-fluid card col-10 d-flex flex-column flex-md-row mb-5 mt-5 pt-3 pb-4 shadow-lg align-items-center rounded-lg justify-content-lg-center">
+        <div class="productos-box container-fluid card col-10 d-flex flex-column flex-md-row mb-5 mt-5 pt-3 pb-4 shadow-lg align-items-center rounded-lg justify-content-lg-center col-12 col-md-10 col-lg-8">
             <img class="img-productos card-img-top img-fluid rounded-lg" src="./img/pinceles.jpg" alt="Card image cap">
             <div class="text-productos d-flex flex-column justify-content-center align-items-center text-center w-75 ">
                 <h4 class="card-title font-weight-bold">Pintura</h4>
@@ -61,7 +60,7 @@
         </div>
 
 
-        <div class="productos-box container card col-10 d-flex flex-column flex-md-row mb-5 mt-5 pt-3 pb-4 shadow-lg align-items-center rounded-lg flex-md-row-reverse justify-content-lg-center">
+        <div class="productos-box container card col-10 d-flex flex-column flex-md-row mb-5 mt-5 pt-3 pb-4 shadow-lg align-items-center rounded-lg flex-md-row-reverse justify-content-lg-center col-12 col-md-10 col-lg-8">
             <img class="img-productos card-img-top img-fluid rounded-lg" src="./img/ecostura.jpg" alt="Card image cap">
             <div class="text-productos d-flex flex-column justify-content-center align-items-center text-center w-75 ">
                 <h4 class="card-title font-weight-bold">Pintura</h4>
@@ -78,18 +77,18 @@
         
         <!-- COMIENZA ASIDE PUBLICIDAD-->
         
-    <aside class="conteiner__redes d-flex flex-column align-items-center ">
+    <aside class="conteiner__redes conteiner d-flex flex-column align-items-center d-flex flex-md-row justify-content-center ">
 
-        <div class=" conteiner__redes--box card">            
-            <img class="card-img-top img-publicidad" src="./img/publicidad/catgris.jpg" alt="Card image cap">
-            <div class="card-body">
-                <p class="font-weight-bold font-italic">Colaboracion paga con gatitos</p> 
+        <div class=" conteiner__redes--box card col-12 col-md-6 col-lg-4 mt-5 mb-5">            
+            <img class="card-img-top img-publicidad" src="./img/publicidad/cat.jpg" alt="Card image cap">
+            <div class="card-body text-center">
+                <p class="font-weight-bold ">Colaboracion paga con gatitos</p> 
             </div>    
         </div>
 
-        <div class="conteiner__redes--box d-flex flex-column align-items-center">
+        <div class="conteiner__redes--box d-flex flex-column align-items-center col-12 col-md-6 col-lg-4 mt-5 mb-5">
             <div>
-                <h3>Segui nuestras redes</h3>
+                <h3>Segui nuestras redes..</h3>
             </div>
             <div class="d-flex flex-row align-items-center">
                 <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram ico"></i></a>
@@ -99,7 +98,26 @@
         </div>
 
     </aside>
-        
 
+    <!-- COMIENZA FOOTER-->
+
+    <footer class="conteiner__footer">
+
+        <div class="conteiner__footer--box conteiner d-flex flex-column justify-content-center align-items-center p-5 flex-lg-row">
+
+            <div class="footer-text text-white mr-lg-5">
+                <p> Todos los derechos reservados &reg;</p>
+            </div>
+
+            <div class="footer-copy text-success ml-lg-5">
+                <p>&copy;Eureka.artesanal</p>
+            </div>
+
+        </div>
+
+    </footer>
+        
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script> 
 </body>
 </html>
