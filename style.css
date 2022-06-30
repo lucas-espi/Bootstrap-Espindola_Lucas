@@ -192,6 +192,12 @@ body {
     background-image: linear-gradient(to right top, #45618e, #0085b4, #00aac8, #00cec4, #48eead);
 }
 
+
+.conteiner__contact {
+    background-image: url(../img/neuquen.jpg);
+    background-position: center center;
+}
+
 /*@media screen and (min-width: 577px) and (max-width:991px) {
 
 }
