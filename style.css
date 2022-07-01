@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html {
+    width: 100%;
+    height: 100vh;
+}
+
 body {
     width: 100%;
     height: 100vh;
@@ -189,21 +194,59 @@ body {
 /*   SECTION CONTENT   */
 
 .conteiner__content-nosotros {
+    width: 100%;
+    height: auto;
     background-image: linear-gradient(to right top, #45618e, #0085b4, #00aac8, #00cec4, #48eead);
 }
+
+/*     PAGINA SERVICIOS    */
+
+.container__content--servicios {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.border-img {
+    border-radius: 1rem;
+}
+
+/*     PAGINA CONTACTO    */
+
+/*   SECTION CONTENT   */
 
 
 .conteiner__contact {
     background-image: url(../img/neuquen.jpg);
     background-position: center center;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: auto;
+
 }
 
-/*@media screen and (min-width: 577px) and (max-width:991px) {
+.bg-form {
+    background-color: #714263;
+}
+
+
+/*     PAGINA PREGUNTAS FRECUENTES     */
+
+/*    SECTION CONTENT   */
+
+.conteiner__content--preguntas {
+    background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(./img/marga.jpg);
+    font-family:cursive, Helvetica, sans-serif;
+    width: 100%;
+    height: auto;
 
 }
 
-@media screen and (min-width: 992px){
+.preguntas__box {
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+    border-radius: 1rem;
+}
 
-}*/
+.preguntas__text--respuesta {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-/*    Continuar con el title header terminado*/
+
