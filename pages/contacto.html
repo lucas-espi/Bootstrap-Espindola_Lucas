@@ -12,6 +12,7 @@
 </head>
 <body>
      <!-- COMIENZA HEADER-->
+
      <Header id="conteiner-header" >
         <div class=" d-flex flex-column justify-content-center align-items-center flex-sm-row justify-content-sm-between container-fluid">
 
@@ -46,8 +47,52 @@
     <section class="conteiner__content">
 
     </section>
+
+    <!-- COMIENZA SECTION CONTENT-->
+
+    <section class="conteiner__contact pt-5 pb-5">
+
+        <form class="container bg-form pt-5 pb-5 rounded-lg col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 shadow-lg">
+            <div class="form-group text-white pt-5 pb-5 ">
+                <label class="font-weight-bold" for="formGroupExampleInput">Nombre:</label>
+                <input type="text" class="form-control " id="formGroupExampleInput" placeholder="Juan">
+
+                <label class="font-weight-bold  pt-4" for="formGroupExampleInput2">Apellido:</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Perez">  
+
+                <label class="font-weight-bold  pt-4" for="inputEmail3" class="col-sm-2 col-form-label">Email:</label>
+                <input type="email" class="form-control" id="inputEmail3" placeholder="email@example.com" required>
+
+                <div class="form-check form-check-inline  pt-4 pb-4 d-flex justify-content-center">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label pr-4" for="inlineCheckbox1">Pintura</label>
+
+                    <input class="form-check-input pl-4" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">Costura</label>
+                </div>
+
+                <div class="d-flex flex-column justify-content-center align-items-center">   
+                    <label class="font-weight-bold text-center" for="consulta">consulta:</label>
+                    <textarea id="consulta" class="col-12 rounded-lg"  placeholder="Consulta.."></textarea>
+                    
+                </div> 
+                <div>
+                    <button type="reset" class="btn btn-primary mt-4 mr-4 btn-productos">limpiar</button>
+                    <button type="submit" class="btn btn-primary mt-4 btn-productos">enviar</button>
+                </div>               
+            </div>    
+        </form>
+
+
+    </section>
+    
+
+
+    
         
-        <!-- COMIENZA ASIDE PUBLICIDAD-->
+    <!-- COMIENZA ASIDE PUBLICIDAD-->
+    
+
         
     <aside class="conteiner__redes conteiner d-flex flex-column align-items-center d-flex flex-md-row justify-content-center ">
 
