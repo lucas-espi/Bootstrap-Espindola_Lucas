@@ -21,14 +21,15 @@ body {
     background-color: #714263;
     width: 100%;
     height: auto;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 }
 
-.logo-eureka {
-    width: 14rem;
-    height: 6rem;
-    
+.logo-header {
+    width: 10rem;
+    height: 5rem;
 }
-.logo-eureka:hover {
+
+.logo-header:hover {
     animation-name: crecer;
     animation-duration: 1s;
 }
@@ -47,17 +48,15 @@ body {
     }
 }
 
-.style-li {
+.list-ul{
     list-style-type: none;
-}
-
+} 
 
 .list-a {
     text-decoration: none;  
     font-size: 1.2rem; 
     color: white;
 }
-
 .list-a:hover {
     color: #7cdbc5;
     animation-name: lista;
@@ -68,21 +67,12 @@ body {
     0% {
         transform: scale(1.1);
     }
-
+    
     100% {
         transform: scale(1.1);
     }
 }
 
-.btn-busqueda {
-    border-color: #7cdbc5;
-    color: #7cdbc5;
-}
-
-.btn-busqueda:hover {
-    color: white;
-    background-color: #63c2ac;
-}
 
 /*     TITULO     */
 
@@ -91,7 +81,7 @@ body {
     height: auto;
     padding: 50px 0px;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-    url(./img/rosa.jpg);
+    url(../../img/rosa.jpg);
     color: white;
     background-position: center center;
 }
@@ -188,7 +178,7 @@ body {
 
 .bg-title {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-    url(../img/margarita.jpg);
+    url(../../img/margarita.jpg);
 }
 
 /*   SECTION CONTENT   */
@@ -215,7 +205,7 @@ body {
 
 
 .conteiner__contact {
-    background-image: url(../img/neuquen.jpg);
+    background-image: url(../../img/neuquen.jpg);
     background-position: center center;
     font-family:Arial, Helvetica, sans-serif;
     width: 100%;
@@ -233,7 +223,7 @@ body {
 /*    SECTION CONTENT   */
 
 .conteiner__content--preguntas {
-    background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(./img/marga.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../../img/marga.jpg);
     font-family:cursive, Helvetica, sans-serif;
     width: 100%;
     height: auto;
