@@ -15,7 +15,7 @@
      <!-- COMIENZA HEADER-->
      <Header id="conteiner-header">
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg_NAV-OSCURO container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg_NAV-OSCURO container" id="up-inicio">
 
             <a href="../index.html">
                 <img class="logo-header" src="../img/logo/Eureka-logo.png" alt="logo">
@@ -69,7 +69,7 @@
 
      <section class="conteiner__content conteiner__content-nosotros justify-content-center align-items-center d-flex flex-column">
 
-        <div class=" conteiner d-flex flex-column justify-content-center align-items-center col-12 col-md-8 flex-md-row shadow-lg mt-5 mb-5">
+        <article class=" art-nosotros conteiner d-flex flex-column justify-content-center align-items-center col-12 col-md-8 flex-md-row shadow-lg mt-5 mb-5">
             <img class="card-img-top col-12 col-sm-6 col-lg-6 col-xl-4 pb-5 pt-5  rounded-circle" src="../img/nosotros/A.jpg" alt="Card image cap">
             <div class=" text-white card-body text-center col-12 col-sm-6 col-lg-6 col-xl-4 pb-5 pt-5">
                 <h3 class="font-weight-bold">Quienes somos</h3>
@@ -79,9 +79,9 @@
                 assumenda mollitia quia! Cum ipsum dicta doloremque labore.
                 </p>
             </div>
-        </div>
+        </article>
 
-        <div class=" conteiner d-flex flex-column justify-content-center align-items-center col-12 col-md-8 flex-md-row flex-md-row-reverse shadow-lg mt-5 mb-5">
+        <article class=" art-nosotros conteiner d-flex flex-column justify-content-center align-items-center col-12 col-md-8 flex-md-row flex-md-row-reverse shadow-lg mt-5 mb-5">
             <img class="card-img-top col-12 col-sm-6 col-lg-6 col-xl-4 pb-5 pt-5  rounded-circle" src="../img/nosotros/cerebro.jpg" alt="Card image cap">
             <div class=" text-white card-body text-center col-12 col-sm-6 col-lg-6 col-xl-4 pb-5 pt-5">
                 <h3 class="font-weight-bold">Nuestra empresa</h3>
@@ -91,9 +91,9 @@
                 assumenda mollitia quia! Cum ipsum dicta doloremque labore.
                 </p>
             </div>
-        </div>
+        </article>
 
-        <div class=" conteiner d-flex flex-column justify-content-center align-items-center col-12 col-md-8 flex-md-row shadow-lg mt-5 mb-5">
+        <article class=" art-nosotros conteiner d-flex flex-column justify-content-center align-items-center col-12 col-md-8 flex-md-row shadow-lg mt-5 mb-5">
             <img class="card-img-top col-12 col-sm-6 col-lg-6 col-xl-4 pb-5 pt-5  rounded-circle" src="../img/nosotros/vision.jpg" alt="Card image cap">
             <div class=" text-white card-body text-center col-12 col-sm-6 col-lg-6 col-xl-4 pb-5 pt-5">
                 <h3 class="font-weight-bold">Mision</h3>
@@ -103,49 +103,8 @@
                 assumenda mollitia quia! Cum ipsum dicta doloremque labore.
                 </p>
             </div>
-        </div>
+        </article>
 
-        <!--
-            <article class="somos">
-                <div class="somos__eu">
-                    <div class="somos__eu--text">
-                        <h3>Quienes somos</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Obcaecati architecto expedita odio temporibus natus? 
-                            Totam eius corporis minus qui corrupti, ipsam nisi 
-                            assumenda mollitia quia! Cum ipsum dicta doloremque labore.</p>
-                        </div>
-                        <picture>
-                            <img src="../img/somos.jpg" alt="Somos" height="250px" width="450px" class="img-nosotros">
-                        </picture>
-                    </div>
-                    
-                    <div class="somos__eu">
-                        <picture>
-                            <img src="../img/emprendimiento.jpg" alt="emprendimiento" height="250px" width="450px" class="img-nosotros">
-                        </picture>
-                        <div class="somos__eu--text">
-                            <h3>Nuestra empresa</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                Obcaecati architecto expedita odio temporibus natus? 
-                                Totam eius corporis minus qui corrupti, ipsam nisi 
-                                assumenda mollitia quia! Cum ipsum dicta doloremque labore.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="somos__eu">
-                            <div class="somos__eu--text">
-                                <h3>Mision</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    Obcaecati architecto expedita odio temporibus natus? 
-                                    Totam eius corporis minus qui corrupti, ipsam nisi 
-                                    assumenda mollitia quia! Cum ipsum dicta doloremque labore.</p>
-                                </div>
-                                <picture>
-                                    <img src="../img/mision.png" alt="mision" height="250px" width="450px" class="img-nosotros">
-                </picture>
-            </div>    
-        </article>-->
     </section>
 
         
@@ -177,15 +136,47 @@
 
     <footer class="conteiner__footer">
 
-        <div class="conteiner__footer--box conteiner d-flex flex-column justify-content-center align-items-center p-5 flex-lg-row">
+        <div class="conteiner__footer--box container d-flex flex-column align-items-center text-center flex-md-row justify-content-center justify-content-md-around pt-md-5">
 
-            <div class="footer-text text-white mr-lg-5">
-                <p> Todos los derechos reservados &reg;</p>
+            <!--  box de leyendas   -->
+            <div class="footer-box mt-4 mb-4 mr-md-4">
+                <p class="text-white">Todos los derechos reservados &reg;</p>
+                <p class="text-success">&copy;Eureka.artesanal</p>
             </div>
 
-            <div class="footer-copy text-success ml-lg-5">
-                <p>&copy;Eureka.artesanal</p>
+            <!--  box de lista     -->
+            <div class="footer-box mt-3 mb-5 mr-md-4 ml-md-4">
+
+                <ul class="guia-footer text-justify">
+
+                    <li class="list-footer">
+                        <a href="" class="list__a--footer">
+                            <i class="fa-solid fa-envelope ico-footer"></i>
+                            <span class="ico-footer-text">Eureka.artesanal@gmail.com</span> 
+                        </a>
+                    </li>
+
+                    <li class="list-footer">
+                        <a href="" class="list__a--footer">
+                            <i class="fa-brands fa-whatsapp ico-footer"></i>
+                            <span class="ico-footer-text">(011)12345678</span>    
+                        </a>
+                    </li>
+
+                    <li class="list-footer">
+                        <a href="" class="list__a--footer">
+                            <i class="fa-solid fa-location-dot ico-footer"></i>
+                            <span class="ico-footer-text">Av. siempre viva 742</span>    
+                        </a>
+                    </li>
+
+                </ul>
+
             </div>
+
+            <button type="button" class="btn btn-outline-warning ml-md-4">
+                <a class="footer-a text-warning" href="#up-inicio">Up <i class="fa-solid fa-angles-up"></i></a>
+            </button>
 
         </div>
 

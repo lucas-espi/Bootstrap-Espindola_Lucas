@@ -99,6 +99,18 @@ body {
     color: #493356;
     background-color:#B0F6D4;
     background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+
+    animation-name: deslizar;
+    animation-duration: 1.25s;
+    animation-timing-function: ease;
+}
+@keyframes deslizar {
+    0% {
+        transform: translateY(150%)
+    }
+    100% {
+        transform: translateY(0%)
+    }
 }
 
 .img-productos {
@@ -173,6 +185,21 @@ body {
     height: auto;
 }
 
+.list-footer {
+    list-style-type: none;
+}
+
+.ico-footer {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.ico-footer-text{
+    font-size: .85rem;
+    color: white;
+    
+}
+
 /*   PAGINA NOSOTROS    */
 
 /*   SECTION TITLE*/
@@ -189,6 +216,20 @@ body {
     height: auto;
     background-image: linear-gradient(to right top, #45618e, #0085b4, #00aac8, #00cec4, #48eead);
 }
+.art-nosotros{
+    animation-name: deslizar;
+    animation-duration: 1.25s;
+    animation-timing-function: ease;
+}
+@keyframes deslizar-nosotros {
+    0% {
+        transform: translateY(150%)
+    }
+    100% {
+        transform: translateY(0%)
+    }
+}
+
 
 /*     PAGINA SERVICIOS    */
 
@@ -216,6 +257,9 @@ body {
 
 .imagen-productos {
     border-radius: .5rem;
+    max-width: 18rem;
+    max-height: 19rem;
+    box-shadow: 0 7px 15px 1px rgba(0,0,0,0.4);
 }
 
 .galeria {
@@ -297,7 +341,6 @@ body {
 
 .conteiner__content--preguntas {
     background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../../img/marga.jpg);
-    font-family:cursive, Helvetica, sans-serif;
     width: 100%;
     height: auto;
 
@@ -306,6 +349,16 @@ body {
 .preguntas__box {
     background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
     border-radius: 1rem;
+    font-family:cursive, Helvetica, sans-serif;
+}
+
+.preguntas__h2{
+    text-decoration: underline;
+}
+
+.preguntas__text--consulta {
+    font-weight: bold;
+    font-size: 1.3rem;
 }
 
 .preguntas__text--respuesta {
