@@ -1,0 +1,36 @@
+/*    PUBLICIDAD    */
+
+.conteiner__redes {    
+    background-color:#ff90af;
+    width: 100%;
+    height: auto;
+
+    .conteiner__redes--box:first-child {
+
+        background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+    }
+
+    .ico {
+        font-size: 80px;
+        padding: 25px;
+        color:#033353;
+
+        &:hover {
+            animation-name: mover;
+            animation-duration: 1.2s;
+        }
+        @keyframes mover {
+            0% {
+                transform:rotate(0deg);
+            }
+        
+            50% {
+                transform: rotate(20deg) scale(1.2);
+            }
+        
+            100% {
+                transform:rotate(-20deg);
+            }
+        }
+    } 
+}
