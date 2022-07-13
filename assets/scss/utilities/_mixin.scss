@@ -1,0 +1,27 @@
+// MIXIN
+
+// mixin para los diferentes texto. 
+
+@mixin text-pag ($co-title, $ff-principal )  {
+    color: $co-title;
+    font-family: $ff-principal;
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: none;
+
+  }
+
+
+  .text-title {
+    @include text-pag ($co-title, $ff-principal)
+  }
+  
+  .text-subtitle {   
+    @include text-pag($co-title, $ff-cursive);
+    font-size: 2rem
+  }
+  
+  .text-parrafo {
+    @include text-pag ($co-text-sub, $ff-parrafo);
+    font-size: 1.5rem;
+  }
