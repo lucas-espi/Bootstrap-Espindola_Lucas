@@ -1,0 +1,30 @@
+// Maps 
+
+
+@each $name-ico, $color-ico in $redes {
+   .ico__redes--#{$name-ico} {
+       color: #033353; 
+       font-size: 80px;
+       padding: 25px;
+       
+
+       &:hover {
+           color: $color-ico;
+           animation-name: mover;
+           animation-duration: 1.2s;
+       }
+       @keyframes mover {
+           0% {
+               transform:rotate(0deg);
+           }
+       
+           50% {
+               transform: rotate(20deg) scale(1.2);
+           }
+       
+           100% {
+               transform:rotate(-20deg);
+           }
+       }
+   }
+}

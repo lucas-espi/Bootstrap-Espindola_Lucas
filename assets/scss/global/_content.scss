@@ -1,24 +1,5 @@
-/*     TITULO     */
-.conteiner__title {
-    width: 100%;
-    height: auto;
-    padding: 50px 0px;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-    url(../../img/rosa.jpg);
-    color: white;
-    background-position: center center;
-}
-
-/*   PAGINA NOSOTROS    */
-
-/*   SECTION TITLE*/
-
-.bg-title {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-    url(../../img/margarita.jpg);
-}
-
-/*   CONTENT INDEX   */
+// INDEX
+/* SECTION  CONTENT INDEX   */
 
 .conteiner__content {
     background-color:#B0F6D4;
@@ -47,29 +28,9 @@
         width:23rem;
         height:15rem;
     }
-
-    .btn-productos {
-        background-color: #0879c6;
-
-        &:hover {
-            background-color: #0c578a;
-            animation-name: btn;
-            animation-duration: 1.5s;
-            animation-iteration-count: infinite;
-        }
-
-        @keyframes btn {
-            0% {
-                transform: scale(1.1);
-            }
-            100% {
-                transform: scale(1.1);
-            }     
-        }
-    }
-
-
 }
+
+// PAGINA NOSOTROS
 
 /*   SECTION CONTENT  NOSOTROS */
 
@@ -92,6 +53,8 @@
         }
     }
 }
+
+// PAGINA PRODUCTOS
 
 /*    SECTION CONTENT PAGINA PRODUCTOS    */
 .container__content--servicios {
@@ -132,9 +95,8 @@
             margin: auto;
             display: grid;
             grid-template-rows: auto;
-            grid-template-columns: repeat(auto-fill, minmax(15rem /*min(100%, 25rem)*/, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
             grid-auto-flow: dense;
-            /*grid-template-columns: repeat(3, 1fr);*/
             row-gap: .5rem;
             column-gap: .5rem;
             justify-content:center;
@@ -178,49 +140,9 @@
     }
 }
 
+
 /*     PAGINA CONTACTO    */
-
-//      SLIDER CONTACTO
-
-.slider{
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    .slider-ul{
-        display: flex;
-        animation: cambio 8s infinite alternate linear;
-        width: 400%;
-
-        @keyframes cambio{
-            0%{margin-left: 0;}
-            20%{margin-left: 0;}
-            
-            25%{margin-left: -100%;}
-            45%{margin-left: -100%;}
-            
-            50%{margin-left: -200%;}
-            70%{margin-left: -200%;}
-            
-            75%{margin-left: -300%;}
-            100%{margin-left: -300%;}
-        }
-
-        .slider-li{
-            width: 100%;
-            list-style: none;
-
-            .slider-li-img{
-                width: 100%;
-                height: 100%;
-            }
-        }
-    }   
-}
   
-  
-  
-  
-
 /*   SECTION CONTENT CONTACTO  */
 
 
@@ -274,41 +196,5 @@
 
 }
 
-/*    PUBLICIDAD    */
-
-.conteiner__redes {    
-    background-color:#ff90af;
-    width: 100%;
-    height: auto;
-
-    .conteiner__redes--box:first-child {
-
-        background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
-    }
-
-    .ico {
-        font-size: 80px;
-        padding: 25px;
-        color:#033353;
-
-        &:hover {
-            animation-name: mover;
-            animation-duration: 1.2s;
-        }
-        @keyframes mover {
-            0% {
-                transform:rotate(0deg);
-            }
-        
-            50% {
-                transform: rotate(20deg) scale(1.2);
-            }
-        
-            100% {
-                transform:rotate(-20deg);
-            }
-        }
-    } 
-}
 
 
