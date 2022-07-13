@@ -4,11 +4,13 @@ $color-header: #714263;
 $color-footer: #493356;
 $color-publicidad: #ff90af;
 $color-redes-ico: #033353;
-$color-buttons: #0879c6;
+$co-btn: #0879c6;
+$co-btn-h:#0c578a;
+$co-btn-up: #FE8A7F;
+$co-btn-up-h: #FFC75F;
 $color-list: #faf3f3;
-$color-li-hover:#7cdbc5;
+$color-li-hover: #7cdbc5;
 
-$bg-buttons:#0c578a; 
 $bg-index: #b0f6d4;
 $bg-nosotros: linear-gradient( to right top,#45618e,#0085b4,#00aac8,#00cec4,#48eead);
 $bg-productos: linear-gradient( to right top,#d16ba5,#c777b9,#ba83ca,#aa8fd8,#9a9ae1,#8aa7ec,#79b3f4,#69bff8,#52cffe,#41dfff,#46eefa,#5ffbf1 );
@@ -21,3 +23,6 @@ $fs-ico-text: .85rem;
 
 $ff-principal: Verdana, Geneva, Tahoma, sans-serif;
 $ff-secundario: cursive, sans-serif, arial;
+
+$shadow-f: 0px 4px 16px 1px rgba(0,0,0,0.6); 
+$shadow-s: 0px 4px 15px 1px rgba(0,0,0,0.4);

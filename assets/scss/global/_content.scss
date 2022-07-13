@@ -28,28 +28,6 @@
         width:23rem;
         height:15rem;
     }
-
-    .btn-productos {
-        background-color: #0879c6;
-
-        &:hover {
-            background-color: #0c578a;
-            animation-name: btn;
-            animation-duration: 1.5s;
-            animation-iteration-count: infinite;
-        }
-
-        @keyframes btn {
-            0% {
-                transform: scale(1.1);
-            }
-            100% {
-                transform: scale(1.1);
-            }     
-        }
-    }
-
-
 }
 
 // PAGINA NOSOTROS
