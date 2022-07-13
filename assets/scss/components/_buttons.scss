@@ -1,15 +1,15 @@
 // Extend
 
 .btn {
-	padding: 10px;
-    margin: 10px;
+	padding: 0.6rem;
+    margin: 0.6rem;
     color: white;
     background-color: $co-btn;
-    border: solid 1px #033353;
-    border-radius: 10px;
-    font-size: 17px;
+    border: solid 1px #225475;
+    border-radius: 0.6rem;
+    font-size: 1.06rem;
     font-weight: bold;
-    font-family: cursive;
+    font-family: sans-serif;
     box-shadow: $shadow-s;
 }
 
@@ -34,6 +34,14 @@
 }
 
 .btn-up {
-    @extend .btn
+    @extend .btn;
+    color: $co-btn-up-h;
+    background-color: $color-footer;
+    border: solid 1px $co-btn-up-h;
+
+    &:hover {
+        color: white;
+        background-color: $co-btn-up-h;
+    }
 
 }

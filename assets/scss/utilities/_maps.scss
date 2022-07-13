@@ -1,0 +1,12 @@
+// Maps 
+
+
+@each $name-ico, $color-ico in $redes {
+   .ico__redes--#{$name-ico} {
+       color: $color-ico;
+   }
+
+   &:hover {
+    color: $color-ico;
+   }
+}
