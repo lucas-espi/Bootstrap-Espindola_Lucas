@@ -12,11 +12,11 @@
 
   }
 
-
+// Aplique al titulo principal en todas las paginas
   .text-title {
     @include text-pag ($co-text, $ff-tittle-1);
   }
-
+// Aplique al parrafo de 
   .text-title-2 {
     @include text-pag ($color-footer, $ff-parrafo-3);
     font-size: 4rem;
@@ -24,16 +24,26 @@
     padding: 4rem 0 4rem 0;
   }
 
+  // Aplique al parrafo bajo titulo principal en todas las paginas
   .text-leyenda {
     @include text-pag($co-text, $ff-subtittle-1);
     font-size: 1.3rem;
+    font-weight: 400;
+  }
+
+  // Aplique al leyenta superior al form
+  .text-leyenda-2 {
+    @include text-pag($co-text, $ff-parrafo-2);
+    font-size: 1.5rem;
   }
   
+  // Aplique al subtitulo de la section content Index
   .text-subtitle-1 {   
     @include text-pag($color-footer, $ff-subtittle-2);
     font-size: 3rem
   }
 
+  // Aplique al subtitulo section content de la pagina nosotros
   .text-subtitle-3 {
     @include text-pag ($co-text, $ff-tittle-2);
     font-size: 3rem;
@@ -47,13 +57,44 @@
     text-decoration: underline
   }
   
+  // Aplique al parrafo del index section content Index
   .text-parrafo {
     @include text-pag ($color-footer, $ff-tittle-2);
     font-size: 1.1rem;
   }
-
+  
+   // Aplique al parrafo section content pag nosotros
   .text-parrafo-2 {
     @include text-pag ($co-text, $ff-parrafo-3);
     font-size: 1.1rem;
   }
+
+   // Aplique al texto del footer
+   .text-footer {
+    @include text-pag ($co-text, $ff-parrafo-4);
+    font-size: 1.1rem;
+    font-weight: 300; 
+  }
+
+  .text-footer-2 {
+    @include text-pag ($co-text, $ff-parrafo-4);
+    font-size: 1.1rem;
+    font-weight: 200;
+    text-align: left;
+
+        &:hover {
+            color: $color-li-hover;
+        }   
+  }
+
+
+  // Aplique al texto del footer verdoso
+  .text-footer-green {
+    @include text-pag ($color-precio, $ff-parrafo-4);
+    font-size: 1.1rem;
+    font-weight: 100;
+  }
+
+
+
 
