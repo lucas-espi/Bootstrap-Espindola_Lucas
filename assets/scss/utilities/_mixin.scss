@@ -2,10 +2,11 @@
 
 // mixin para los diferentes texto. 
 
-@mixin text-pag ($co-title, $ff-principal )  {
-    color: $co-title;
-    font-family: $ff-principal;
-    font-size: 4rem;
+@mixin text-pag ($co-text, $ff-parrafo-1)  {
+    color: $co-text;
+    font-family: $ff-parrafo-1;
+    font-size: 5rem;
+    font-weight: 350;
     text-align: center;
     text-decoration: none;
 
@@ -13,15 +14,46 @@
 
 
   .text-title {
-    @include text-pag ($co-title, $ff-principal)
+    @include text-pag ($co-text, $ff-tittle-1);
+  }
+
+  .text-title-2 {
+    @include text-pag ($color-footer, $ff-parrafo-3);
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 4rem 0 4rem 0;
+  }
+
+  .text-leyenda {
+    @include text-pag($co-text, $ff-subtittle-1);
+    font-size: 1.3rem;
   }
   
-  .text-subtitle {   
-    @include text-pag($co-title, $ff-cursive);
-    font-size: 2rem
+  .text-subtitle-1 {   
+    @include text-pag($color-footer, $ff-subtittle-2);
+    font-size: 3rem
+  }
+
+  .text-subtitle-3 {
+    @include text-pag ($co-text, $ff-tittle-2);
+    font-size: 3rem;
+    font-weight: 400;
+  }
+
+  .text-subtitle-2 {
+    @include text-pag($color-footer, $ff-parrafo-3);
+    font-size: 2.7rem;
+    font-weight: bold;
+    text-decoration: underline
   }
   
   .text-parrafo {
-    @include text-pag ($co-text-sub, $ff-parrafo);
-    font-size: 1.5rem;
+    @include text-pag ($color-footer, $ff-tittle-2);
+    font-size: 1.1rem;
   }
+
+  .text-parrafo-2 {
+    @include text-pag ($co-text, $ff-parrafo-3);
+    font-size: 1.1rem;
+  }
+

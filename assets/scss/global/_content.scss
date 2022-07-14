@@ -2,13 +2,13 @@
 /* SECTION  CONTENT INDEX   */
 
 .conteiner__content {
-    background-color:#B0F6D4;
+    background-color:$bg-index;
     width: 100%;
     height: auto;
 
     .productos-box {
-        color: #493356;
-        background-color:#B0F6D4;
+        color: $color-footer;
+        background-color:$bg-index;
         background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
     
         animation-name: deslizar;
@@ -37,7 +37,7 @@
 .conteiner__content-nosotros {
     width: 100%;
     height: auto;
-    background-image: linear-gradient(to right top, #45618e, #0085b4, #00aac8, #00cec4, #48eead);
+    background-image: $bg-nosotros;
 
     .art-nosotros{
         animation-name: deslizar;
@@ -58,18 +58,12 @@
 
 /*    SECTION CONTENT PAGINA PRODUCTOS    */
 .container__content--servicios {
-    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-image: $bg-productos;
     width: 100%;
     height: auto;
 
     .subtitulo-productos {
-        background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
-        color: rgb(77, 29, 61);
-        font-family:cursive;
-        font-size: 4rem;
-        font-weight: bold;
-        padding: 4rem 0 4rem 0;
-        text-align: center;
+        background: $gradient-t;
 
         .sub-i {
             font-size: 3rem;
@@ -78,16 +72,7 @@
   
 
     .contenedor {
-        padding: 4rem;
-
-        .titulos-productos{
-            text-align: center;
-            font-family: cursive;
-            font-weight: bold;
-            font-size: 2.7rem;
-            color: rgb(77, 29, 61);
-            text-decoration: underline;
-        }        
+        padding: 4rem;       
 
         /*GRID galeria de imagenes*/
         .galeria {
@@ -122,14 +107,14 @@
                 } 
                 
                 .descripcion{
-                    color: black;
-                    font-family: cursive;
+                    color: $color-footer;
+                    font-family: $ff-parrafo-2;
                     font-weight: bold;
                     font-size: 1.2rem;
                 }
                 
                 .precio {
-                    color: rgb(196, 252, 141);
+                    color: $color-precio;
                     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
                     border-radius: .3rem;
                 }
