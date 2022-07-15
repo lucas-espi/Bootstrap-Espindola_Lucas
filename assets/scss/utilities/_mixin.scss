@@ -24,6 +24,13 @@
     padding: 4rem 0 4rem 0;
   }
 
+  // Aplique al parrafo de 
+  .text-title-3 {
+    @include text-pag ($co-text, $ff-parrafo-3);
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
   // Aplique al parrafo bajo titulo principal en todas las paginas
   .text-leyenda {
     @include text-pag($co-text, $ff-subtittle-1);
@@ -67,6 +74,19 @@
   .text-parrafo-2 {
     @include text-pag ($co-text, $ff-parrafo-3);
     font-size: 1.1rem;
+  }
+
+  .text-parrafo-preg {
+    @include text-pag ($co-text, $ff-tittle-2);
+    font-size: 1.1rem;
+    text-align:left; 
+  }
+
+  .text-parrafo-resp {
+    @include text-pag ($co-text, $ff-parrafo-4);
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-align:left; 
   }
 
    // Aplique al texto del footer

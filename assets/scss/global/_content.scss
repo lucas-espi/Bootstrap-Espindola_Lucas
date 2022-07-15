@@ -132,9 +132,8 @@
 
 
 .conteiner__contact {
-    background-image: linear-gradient(to top, #845ec2, #8d6ac3, #9676c3, #9e82c4, #a68ec4);
+    background-image: $bg-contacto;
     background-position: center center;
-    font-family:Arial, Helvetica, sans-serif;
     width: 100%;
     height: auto;
 
@@ -144,14 +143,7 @@
 
     .bg-form {
         background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
-
-        .titulo-contacto{
-            color: white;
-            font-family: cursive;
-            font-weight: bold;
-            font-size: 2.5rem;
-        }
-    }    
+    }
 }
 
 
@@ -167,19 +159,10 @@
     .preguntas__box {
         background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
         border-radius: 1rem;
-        font-family:cursive, Helvetica, sans-serif;
+        font-family:$ff-subtittle-1;
 
         .preguntas__h2{
             text-decoration: underline;
-        }
-
-        .preguntas__text--consulta {
-            font-weight: bold;
-            font-size: 1.3rem;
-        }
-        
-        .preguntas__text--respuesta {
-            font-family: Arial, Helvetica, sans-serif;
         }
     }
 
