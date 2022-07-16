@@ -115,6 +115,11 @@
     font-weight: 100;
   }
 
+  .text-publicidad {   
+    @include text-pag($color-redes-ico, $ff-tittle-2);
+    font-size: 2rem;
+    font-weight: 500;
+  }
 
 
 
