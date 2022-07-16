@@ -5,19 +5,6 @@
 
     .list-footer {
         list-style-type: none;
-        color: $color-list;
-
-        &:hover {
-            color: $color-li-hover;
-        }
-
-        .ico-footer {
-            font-size: $fs-ico-footer;
-        }
-        
-        .ico-footer-text{
-            font-size: $fs-ico-text;            
-        }
     }
 
 }

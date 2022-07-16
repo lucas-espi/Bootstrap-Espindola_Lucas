@@ -10,6 +10,7 @@ $co-btn-up: #FE8A7F;
 $co-btn-up-h: #FFC75F;
 $color-list: #faf3f3;
 $color-li-hover: #7cdbc5;
+$color-precio:#02D378;
 
 $co-text: white;   // color de titulo principal
 $co-text-sub: white; // color de subtitulos
@@ -33,11 +34,16 @@ $ff-subtittle-2:'Arima Madurai', cursive;//Subtitulo estilo cursiva
 
 $ff-parrafo-1:'Lato', sans-serif; //Parrafo
 $ff-parrafo-2:'Arima Madurai', cursive; //Parrafo  estilo cursiva
+$ff-parrafo-3: cursive, sans-serif;
+$ff-parrafo-4: calibri; //Usar para el footer
 
 $fw-bold: bold;
 
 $shadow-f: 0px 4px 16px 1px rgba(0,0,0,0.6); 
 $shadow-s: 0px 4px 15px 1px rgba(0,0,0,0.4);
+$shadow-header: 0 5px 10px rgba(0,0,0,0.5);
+
+$gradient-t: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
 
 // Variables maps
 

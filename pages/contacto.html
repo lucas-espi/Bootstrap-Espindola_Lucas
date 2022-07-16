@@ -69,8 +69,8 @@
     <!-- COMIENZA SECTION TITLE -->
     <section class="conteiner__title">
         <div class="conteiner__title--eureka d-flex justify-content-center  flex-column align-items-center">
-            <H1 class="display-3 text-center ">Eureka Artesanal</H1>
-            <p class="text-capitalize text-center">Breve descripción, o presentación de lo que es eureka artesanal, <span class="font-italic">primera presentación </span></p>
+            <H1 class="display-3 text-center text-title">Eureka Artesanal</H1>
+            <p class="text-capitalize text-leyenda">La magia ocurre cuando amas lo que haces, <span class="font-italic">Hecho a mano y con amor. </span></p>
         </div>
     </section> 
 
@@ -79,34 +79,40 @@
 
     <section class="conteiner__contact pt-5 pb-5">
 
+        <div class="leyenda__contacto container">
+            <p class="text-contacto-ly text-leyenda-2">
+                ...Estamos elaborando productos, se te ofrece algo... <br><span class="font-weight-bolder" >Cuéntanos aqui <i class="fa-solid fa-arrow-down"></i></span>
+            </p>
+        </div>
+
         <form class="container bg-form pt-5 pb-5 rounded-lg col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 shadow-lg">
-            <h3 class="titulo-contacto  text-center">Formulario de consulta</h3>
+            <h3 class="titulo-contacto  text-title-3">Formulario de consulta</h3>
             <div class="form-group text-white pt-5 pb-5 ">
-                <label class="font-weight-bold" for="formGroupExampleInput">Nombre:</label>
+                <label class="text-parrafo-2" for="formGroupExampleInput">Nombre:</label>
                 <input type="text" class="form-control " id="formGroupExampleInput" placeholder="Juan">
 
-                <label class="font-weight-bold  pt-4" for="formGroupExampleInput2">Apellido:</label>
+                <label class="text-parrafo-2  pt-4" for="formGroupExampleInput2">Apellido:</label>
                 <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Perez">  
 
-                <label class="font-weight-bold  pt-4" for="inputEmail3" class="col-sm-2 col-form-label">Email:</label>
+                <label class="text-parrafo-2  pt-4" for="inputEmail3" class="col-sm-2 col-form-label">Email:</label>
                 <input type="email" class="form-control" id="inputEmail3" placeholder="email@example.com" required>
 
                 <div class="form-check form-check-inline  pt-4 pb-4 d-flex justify-content-center">
                     <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                    <label class="form-check-label pr-4" for="inlineCheckbox1">Pintura</label>
+                    <label class="text-parrafo-2 form-check-label pr-4" for="inlineCheckbox1">Pintura</label>
 
                     <input class="form-check-input pl-4" type="checkbox" id="inlineCheckbox2" value="option2">
-                    <label class="form-check-label" for="inlineCheckbox2">Costura</label>
+                    <label class="text-parrafo-2 form-check-label" for="inlineCheckbox2">Costura</label>
                 </div>
 
                 <div class="d-flex flex-column justify-content-center align-items-center">   
-                    <label class="font-weight-bold text-center" for="consulta">Consulta:</label>
+                    <label class="text-parrafo-2 text-center" for="consulta">Consulta:</label>
                     <textarea id="consulta" class="col-12 rounded-lg"  placeholder="Mensaje.."></textarea>
                     
                 </div> 
                 <div>
-                    <button type="reset" class="btn btn-primary mt-4 mr-4 btn-productos">limpiar</button>
-                    <button type="submit" class="btn btn-primary mt-4 btn-productos">enviar</button>
+                    <button type="reset" class="btn-ir mt-4 mr-4 btn-productos">limpiar</button>
+                    <button type="submit" class="btn-ir mt-4 btn-productos">enviar</button>
                 </div>               
             </div>    
         </form>
@@ -127,13 +133,13 @@
         <div class=" conteiner__redes--box card col-12 col-md-6 col-lg-4 mt-5 mb-5">            
             <img class="card-img-top img-publicidad" src="../img/publicidad/cat.jpg" alt="Card image cap">
             <div class="card-body text-center">
-                <p class="font-weight-bold ">Colaboracion paga con gatitos</p> 
-            </div>    
+                <p class="font-weight-bold text-parrafo "><i class="fa-solid fa-paw"></i>&#160 Colaboracion paga con gatitos</p> 
+            </div>   
         </div>
 
         <div class="conteiner__redes--box d-flex flex-column align-items-center col-12 col-md-6 col-lg-4 mt-5 mb-5">
             <div>
-                <h3>Segui nuestras redes..</h3>
+                <h4 class="text-publicidad">Seguinos en redes...</h4>
             </div>
             <div class="d-flex flex-row align-items-center">
                 <a href="https://www.instagram.com/eureka.artesanal/" target="_blank"><i class="fa-brands fa-instagram ico__redes--instagram"></i></a>
@@ -152,26 +158,26 @@
 
             <!--  box de leyendas   -->
             <div class="footer-box mt-4 mb-4 mr-md-4">
-                <p class="text-white">Todos los derechos reservados &reg;</p>
-                <p class="text-success">&copy;Eureka.artesanal</p>
+                <p class="text-footer">Todos los derechos reservados &reg;</p>
+                <p class="text-footer-green">&copy;Eureka.artesanal</p>
             </div>
 
             <!--  box de lista     -->
-            <div class="footer-box mt-3 mb-5 mr-md-4 ml-md-4">
+            <div class="footer-box mt-3 mt-md-5 mb-5 mr-md-4 ml-md-4">
 
-                <ul class="guia-footer text-justify">
+                <ul class="guia-footer text-justify ">
 
-                    <li class="list-footer">
+                    <li class="list-footer text-footer-2">
                         <i class="fa-solid fa-envelope ico-footer"></i>
                         <span class="ico-footer-text">Eureka.artesanal@gmail.com</span> 
                     </li>
 
-                    <li class="list-footer">
+                    <li class="list-footer text-footer-2">
                             <i class="fa-brands fa-whatsapp ico-footer"></i>
                             <span class="ico-footer-text">(011)12345678</span>    
                     </li>
 
-                    <li class="list-footer">
+                    <li class="list-footer text-footer-2">
                             <i class="fa-solid fa-location-dot ico-footer"></i>
                             <span class="ico-footer-text">Av. siempre viva 742</span>    
                     </li>
@@ -180,12 +186,15 @@
 
             </div>
 
+            <!--   button  up   -->
+
             <a class="footer-a text-warning" href="#up-inicio">
                 <button type="button" class="btn-up">Up <i class="fa-solid fa-angles-up"></i></button>
             </a>
 
         </div>
 
+            
     </footer>
 
 </body>
